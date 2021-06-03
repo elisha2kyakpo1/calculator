@@ -3,7 +3,7 @@ const number = (value) => {
 }
 
 const sqrt = () => {
-  var val = Math.sqrt(document.getElementById("root").value);
+  const val = Math.sqrt(document.getElementById("root").value);
   document.getElementById("root").value = val;
 }
 
